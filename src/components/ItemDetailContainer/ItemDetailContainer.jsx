@@ -4,8 +4,9 @@ import { ItemDetail } from "../ItemDetail/ItemDetail"
 
 export const ItemDetailContainer = () => {
     
-    const [producto, setProducto] = useState([])
+    const [producto, setProducto] = useState({})
 
+    console.log(prod)
     useEffect(() => {
         ConsultarBDD('../json/productos.json').then(prods => {
             const prod = prods.find(item => item.id === 1)

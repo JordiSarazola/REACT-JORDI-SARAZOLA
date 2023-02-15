@@ -1,16 +1,16 @@
 .cardProducto {
-width: 18rem;
-margin: 4px;
-background-color: hsla(0, 0%, 97%, 0.795);
-object-fit: cover;
-border: 10px black;
+    width: 18rem;
+    margin: 4px;
+    background-color: hsla(0, 0%, 97%, 0.795);
+    object-fit: cover;
+    border: 10px black;
 }
 
 
 .cardProductos {
-  margin: 4px 5px;
-  align-items: center;
-  justify-content: center;
+    margin: 4px 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 .cardBody {
@@ -22,10 +22,4 @@ border: 10px black;
 img {
     aspect-ratio: 1/1;
     margin-top: 3px;
-}
-
-.itemDetail {
-    margin-top: 20px;
-    max-width: 540px;
-    
 }

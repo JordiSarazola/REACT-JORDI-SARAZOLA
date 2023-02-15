@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "idCategoria" : "1",
+        "nombre": "Caramelera",
+        "img": "caramelera.jpeg",
+        "stock": 30,
+        "precio": 2500
+    }, 
+    {
+        "id": "2",
+        "idCategoria" : "1",
+        "nombre": "Arcilla",
+        "img": "fuego.jpeg",
+        "stock": 30,
+        "precio": 800
+    },
+    {
+        "id": "3",
+        "idCategoria" : "1",
+        "nombre": "Floreadas",
+        "img": "producto.jpeg",
+        "stock": 30,
+        "precio": 500
+    },
+    {
+        "id": "4",
+        "idCategoria" : "1",
+        "nombre": "Set Buda",
+        "img": "buda.jpg",
+        "stock": 30,
+        "precio": 3100
+    },
+    {
+        "id": "5",
+        "idCategoria" : "1",
+        "nombre": "Reina Siglo XVII",
+        "img": "reina.png",
+        "stock": 30,
+        "precio": 1500
+    },
+    {
+        "id": "6",
+        "idCategoria" : "1",
+        "nombre": "Otoño",
+        "img": "hoja.jpeg",
+        "stock": 30,
+        "precio": 700
+    },
+    {
+        "id": "7",
+        "idCategoria" : "1",
+        "nombre": "Energizante",
+        "img": "piedras.jpg",
+        "stock": 30,
+        "precio": 1000
+    },
+    {
+        "id": "8",
+        "idCategoria" : "1",
+        "nombre": "Asiatica",
+        "img": "oro.jpeg",
+        "stock": 30,
+        "precio": 700
+    },
+    {
+        "id": "9",
+        "idCategoria" : "1",
+        "nombre": "Patagonia",
+        "img": "arbol.jpg",
+        "stock": 30,
+        "precio": 800
+    }
+]

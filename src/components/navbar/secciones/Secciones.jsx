@@ -1,16 +1,10 @@
-import React from 'react';
+import { Link } from "react-router-dom";
 
 export const Secciones = () => {
     return (
         <>
             <li className="nav-item">
-                            <button className='btn btn-info'>Inicio</button>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Informacion</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Nosotros</a>
+                            <Link className="nav-link" to={'/'}><button className='btn btn-info'>Inicio</button></Link>
                         </li>
         </>
     );

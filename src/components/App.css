@@ -1,25 +1,67 @@
 .cardProducto {
     width: 18rem;
-    margin: 4px;
     background-color: hsla(0, 0%, 97%, 0.795);
-    object-fit: cover;
-    border: 10px black;
+    object-fit: contain;
+    aspect-ratio: 1/1;
 }
 
-
+.cartWidget {
+    margin-right: 40px;
+    color: white;
+}
 .cardProductos {
-    margin: 4px 5px;
     align-items: center;
     justify-content: center;
 }
 
+.card-text {color: black;}
+
+.card-title {color: black;}
+
+
 .cardBody {
     background-color: wheat;
-    margin-bottom: 3px;
+    text-align: center;
+    font-size: 1.15rem;
+}
+.card-img { object-fit: contain;
+    aspect-ratio: 1/1;
+    height: 640px;
+    width: 640px;
+    max-width: 640px;}
+
+.cardBodyDark {
+    background-color: (0,0,33%);
+    margin-top: 3px;
     text-align: center;
 }
 
-img {
-    aspect-ratio: 1/1;
-    margin-top: 3px;
+.contForm {
+    margin-top: 20px;
+}
+.item-detail{background-color: wheat;
+    margin-bottom: 3px;
+    text-align: center;}
+
+.itemDetailBodyDark {
+    background-color: (0,0,33%);
+    color: white;
+}
+
+.cartContainer {
+    margin-top: 3%;
+    margin-left: 26,5%;
+}
+
+.cardCart {
+    max-width: 640px;
+}
+
+.divButtons button {
+    margin: 4px;
+}
+
+img { width: 250px;
+    height: 250px;
+
 }

@@ -1,11 +1,17 @@
 import { Item } from "../Item/Item";
-
- export const ItemList = ({prods}) => {
-    return (
-        <>
-        {prods.map(producto => <Item item={producto} key={producto.id}/>)}
-        </>
-    );
+import { ItemCart } from "../ItemCart/ItemCart"
+export const ItemList = ({prods, plantilla}) => {
+  
+  return (
+    <>
+      {
+        plantilla === "Item"
+        ?
+        prods.map(producto => <Item item={producto} key={producto.id}/>)
+        :
+        prods.map(producto => <ItemCart item={producto} key={producto.id}/>)
+      }
+        
+    </>
+  )
 }
-
-

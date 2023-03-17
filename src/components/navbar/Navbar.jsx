@@ -1,6 +1,7 @@
-import { Carrito } from "../carrito/Carrito";
+import { CartWidget } from "../CardWidget/CardWidget";
 import { Categorias } from "./categorias/Categorias";
 import { Secciones } from "./secciones/Secciones";
+
 export const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-light">
@@ -13,7 +14,7 @@ export const Navbar = () => {
                         <Secciones/>
                         <Categorias/>
                     </ul>
-                    <Carrito cantCarrito={""}/>
+                    <CartWidget/>
                 </div>
             </div>
         </nav>
